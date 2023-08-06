@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Hook To-Do List Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple To-Do List web application built using React. It allows users to manage their daily tasks by adding new tasks, marking tasks as completed, and deleting tasks when they are no longer needed.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Add new tasks: Users can add new tasks to the to-do list.
+- Mark tasks as completed: Users can mark tasks as completed by checking the checkbox next to the task.
+- Delete tasks: Users can delete tasks from the to-do list using the delete icon.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run the To-Do List project locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the repository:**
 
-### `npm test`
+   ```
+   git clone https://github.com/jrshittu/hook.git
+   cd hook
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install dependencies:**
 
-### `npm run build`
+   ```
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Start the development server:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   The application will be running at `http://localhost:3000` in your web browser.
 
-### `npm run eject`
+## Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The project structure is organized as follows:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+todo-list/
+  ├── src/
+  │   ├── components/
+  │   │   ├── TodoApp.js
+  │   │   ├── TodoList.js
+  │   │   ├── TodoItem.js
+  │   │   └── AddTodoForm.js
+  │   ├── App.js
+  │   └── index.js
+  ├── public/
+  │   └── index.html
+  ├── package.json
+  └── README.md
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `TodoApp.js`: The main component that renders the entire To-Do List application.
+- `TodoList.js`: Renders the list of tasks based on the `todos` array received as a prop.
+- `TodoItem.js`: Renders an individual task item with a checkbox and a delete icon.
+- `AddTodoForm.js`: Renders the input field and the "Add Task" button to allow users to add new tasks.
+- `App.js`: Renders the `TodoApp` component and provides initial task data.
+- `index.js`: Entry point of the application that renders the `App` component into the root DOM element.
+- `public/`: Contains the index.html file, the main HTML template for the application.
+- `package.json`: Contains the project's dependencies and configuration.
+- `README.md`: This file, containing information about the project.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Dependencies
 
-## Learn More
+The To-Do List project utilizes the following main dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React: A JavaScript library for building user interfaces.
+- Material-UI: A popular React UI framework that provides pre-built components and styles.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+If you find any issues with the application or have suggestions for improvement, feel free to open an issue or create a pull request. Contributions are always welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for checking out the To-Do List project! If you have any questions or feedback, please don't hesitate to reach out. Happy task managing!
