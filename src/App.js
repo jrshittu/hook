@@ -20,8 +20,8 @@ const App = () => {
   
   return (
     <Container maxWidth='sm'>
-      <Typography variant='h4' align='center' gutterBottom mt= '24px' color="red" paddingTop="10px">
-        Hook App
+      <Typography variant='h4' align='center' gutterBottom mt= '24px' color="red" paddingTop="10px" sx={{fontFamily: "monospace"}}>
+        Hook Todo App
       </Typography>
       <TodoList todos={todos} onDelete={handleDeleteTodo}/>
       <AddTodoForm todos={todos} onAdd={handleAddTodo}/>
