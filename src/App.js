@@ -17,8 +17,8 @@ const App = () => {
   
   
   return (
-    <Container maxWidth='sm' background="yellowgreen">
-      <Typography variant='h4' align='center' gutterBottom mt= '24px' color="red">
+    <Container maxWidth='sm' sx={{backgroundColor: "yellow", }}>
+      <Typography variant='h4' align='center' gutterBottom mt= '24px' color="red" paddingTop="10px">
         Hook App
       </Typography>
       <TodoList todos={todos} />
