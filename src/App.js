@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import { Container, Typography } from '@mui/material';
 import TodoList from './components/TodoList';
@@ -12,10 +12,12 @@ const App = () => {
     {id: 3, text: 'Do dishes', completed: false},
     {id: 4, text: 'Do Laundry', completed: false}
   ]);
+
+  // put useEffect here
   
   
   return (
-    <Container maxWidth='sm'>
+    <Container maxWidth='sm' background="yellowgreen">
       <Typography variant='h4' align='center' gutterBottom mt= '24px' color="red">
         Hook App
       </Typography>
