@@ -1,6 +1,6 @@
 # Hook To-Do List Project
 
-This is a simple To-Do List web application built using React. It allows users to manage their daily tasks by adding new tasks, marking tasks as completed, and deleting tasks when they are no longer needed. Open <a href="https://hook-mu.vercel.app/">Hook</a> to open the completed projects.
+This is a simple To-Do List web application built using React. It allows users to manage their daily tasks by adding new tasks, marking tasks as completed, and deleting tasks when they are no longer needed. Open <a href="https://hook-mu.vercel.app/" target="_blank">Hook</a> to open the completed projects.
 
 ## Features
 
