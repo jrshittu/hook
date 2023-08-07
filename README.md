@@ -41,7 +41,7 @@ The project structure is organized as follows:
 todo-list/
   ├── src/
   │   ├── components/
-  │   │   ├── TodoApp.js
+  │   │   ├── App.js
   │   │   ├── TodoList.js
   │   │   ├── TodoItem.js
   │   │   └── AddTodoForm.js
@@ -53,11 +53,10 @@ todo-list/
   └── README.md
 ```
 
-- `TodoApp.js`: The main component that renders the entire To-Do List application.
+- `App.js`: The main component that renders the entire To-Do List application.
 - `TodoList.js`: Renders the list of tasks based on the `todos` array received as a prop.
 - `TodoItem.js`: Renders an individual task item with a checkbox and a delete icon.
 - `AddTodoForm.js`: Renders the input field and the "Add Task" button to allow users to add new tasks.
-- `App.js`: Renders the `TodoApp` component and provides initial task data.
 - `index.js`: Entry point of the application that renders the `App` component into the root DOM element.
 - `public/`: Contains the index.html file, the main HTML template for the application.
 - `package.json`: Contains the project's dependencies and configuration.
